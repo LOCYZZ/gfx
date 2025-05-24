@@ -346,6 +346,25 @@ header nav ul li:first-child {
         width: 200px;
         height: 75px;
     }
+
+    .miniatures-row img {
+        width: 144px;
+        height: 81px;
+    }
+
+    .yt-banner-row img {
+        width: 300px;
+        height: 108px;
+    }
+
+    .title-image {
+        max-width: 400px; /* Ajustez cette valeur selon la taille souhaitée pour les mobiles */
+    }
+
+    .discover-button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -358,43 +377,7 @@ header nav ul li:first-child {
         width: 160px;
         height: 60px;
     }
-}
 
-/* Ajoute un espace à droite sur la dernière image de chaque bloc scrolling-content */
-.scrolling-content img:last-child {
-    margin-right: 20px;
-}
-
-/* Miniatures YouTube */
-.miniatures-row img {
-    width: 192px;
-    height: 108px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-/* Bannières YouTube */
-.yt-banner-row img {
-    width: 500px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-/* Responsive pour miniatures et bannières YT */
-@media (max-width: 768px) {
-    .miniatures-row img {
-        width: 144px;
-        height: 81px;
-    }
-
-    .yt-banner-row img {
-        width: 300px;
-        height: 108px;
-    }
-}
-
-@media (max-width: 480px) {
     .miniatures-row img {
         width: 120px;
         height: 68px;
@@ -403,5 +386,14 @@ header nav ul li:first-child {
     .yt-banner-row img {
         width: 250px;
         height: 90px;
+    }
+
+    .title-image {
+        max-width: 300px; /* Ajustez cette valeur selon la taille souhaitée pour les petits écrans */
+    }
+
+    .discover-button {
+        padding: 8px 16px;
+        font-size: 14px;
     }
 }
