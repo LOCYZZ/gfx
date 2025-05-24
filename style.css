@@ -301,7 +301,7 @@ header nav ul li:first-child {
 /* Bloc de duplication */
 .scrolling-content {
     display: flex;
-    gap: 20px;
+    gap: 20px; /* Ajoute un espace entre les images */
 }
 
 /* Logos */
@@ -310,6 +310,7 @@ header nav ul li:first-child {
     height: 150px;
     object-fit: cover;
     border-radius: 10px;
+    margin: 0 10px; /* Ajoute un espace entre les images */
 }
 
 /* Bannières */
@@ -318,6 +319,7 @@ header nav ul li:first-child {
     height: 112px;
     object-fit: cover;
     border-radius: 10px;
+    margin: 0 10px; /* Ajoute un espace entre les images */
 }
 
 /* Animations */
@@ -436,10 +438,12 @@ header nav ul li:first-child {
     .miniatures-row img {
         width: 192px;
         height: 108px;
+        margin: 0 10px; /* Ajoute un espace entre les images */
     }
 
     .yt-banner-row img {
         width: 500px;
         height: 180px;
+        margin: 0 10px; /* Ajoute un espace entre les images */
     }
 }
